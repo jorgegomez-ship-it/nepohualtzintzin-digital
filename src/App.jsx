@@ -89,13 +89,13 @@ export default function NepohualtzintzinDigital() {
           {/* TABLERO */}
           <div className="bg-[#efe4cf] border-2 sm:border-4 border-[#cbb89d] rounded-2xl shadow-2xl p-2 sm:p-4 md:p-6 overflow-hidden">
 
-            <div className="flex justify-center items-start gap-[2px] sm:gap-1 md:gap-2 bg-[#f5ead7] border-2 border-[#9f8d72] rounded-xl p-1 sm:p-2 md:p-4 relative">
+            <div className="flex justify-center items-start gap-[1px] sm:gap-1 md:gap-2 w-full bg-[#f5ead7] border-2 border-[#9f8d72] rounded-xl p-1 sm:p-2 md:p-4 relative">
 
               {estado.map((columna, columnaIndex) => (
                 <React.Fragment key={columnaIndex}>
 
                   {/* COLUMNA */}
-                  <div className="relative flex-shrink-0 flex flex-col items-center px-[1px] sm:px-1 md:px-2">
+                  <div className="relative flex flex-col items-center flex-1 min-w-0">
 
                     {/* BARRA VERTICAL */}
                     <div className="absolute top-0 bottom-0 w-[6px] bg-[#8b5a2b] rounded-full z-0"></div>
