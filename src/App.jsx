@@ -65,9 +65,8 @@ export default function NepohualtzintzinDigital() {
   return (
     <div className="min-h-screen bg-stone-100 p-2 sm:p-4 md:p-6 flex flex-col items-center overflow-hidden">
 
-      <div className="w-full flex justify-center overflow-hidden">
-
-        <div className="scale-[0.60] sm:scale-[0.75] md:scale-[0.9] lg:scale-100 origin-top">
+      <div className="w-full flex justify-center">
+  <div className="w-full max-w-[1600px]">
 
           {/* TÍTULO */}
           <div className="text-center mb-8">
